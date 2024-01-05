@@ -1,0 +1,44 @@
+import java.util.List;
+
+/**
+ * Interface for the backend functionality
+ */
+
+public interface IndividualBackendInterface {
+
+    /**
+     * This is a constructor that inititalizes the BST
+     */
+
+  /*
+  public IndividualBackend() {
+    this.redBlackTree = new BST<>();
+
+
+  /**
+   * Loads ingredients data from the specified CSV file for the interface
+   *
+   * @param dataFilePath the path to the CSV file containing ingredients data
+   * @param delimiter the delimiter used in the CSV file for separating values
+   * @return the ingredient data from a CSV file
+   */
+    public void loadFile(String dataFilePath, String delimiter);
+
+    /**
+     * Calculates the number of ingredients and categories as dataset statistics
+     *
+     * @return dataset of ingredients and categories
+     */
+    public double getIngredientsandCategories();
+
+    /**
+     * Gets a list of ingredients that can replace the given fruit ("Passion Fruit")
+     *
+     * @param fruit a fruit that needs to be replaced
+     * @return a list of ingredients
+     */
+    public List<IngredientInterface> getReplacementIngredientList(String fruit);
+
+    // Other methods as needed for backend functionality
+}
+

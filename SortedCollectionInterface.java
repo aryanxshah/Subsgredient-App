@@ -9,5 +9,5 @@ public interface SortedCollectionInterface<T extends Comparable<T>> {
     public boolean isEmpty();
 
     public void clear();
-    
+
 }
